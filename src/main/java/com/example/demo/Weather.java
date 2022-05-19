@@ -6,7 +6,7 @@ import javax.persistence.Id;
 @Entity
 public class Weather {
 
-    @Id
+    @Id //ID
     private String city;
 
     private String description;
